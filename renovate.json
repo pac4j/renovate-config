@@ -1,0 +1,13 @@
+{
+    "extends": [
+        "config:base",
+        "helpers:pinGitHubActionDigests"
+    ],
+    "packageRules": [
+      {
+        "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+        "automerge": true
+      }
+    ],
+    "labels": ["dependencies", "bot"]
+}
