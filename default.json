@@ -3,11 +3,9 @@
         "config:base",
         "helpers:pinGitHubActionDigests"
     ],
-    "packageRules": [
-      {
-        "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
-        "automerge": true
-      }
-    ],
+    "automerge": true,
+    "automergeType": "pr",
+    "automergeStrategy": "merge",
+    "platformAutomerge": true,
     "labels": ["dependencies", "bot"]
 }
