@@ -7,5 +7,5 @@
     "automergeType": "pr",
     "automergeStrategy": "merge",
     "platformAutomerge": true,
-    "labels": ["dependencies", "bot"]
+    "labels": ["dependencies", "renovate", "automated", "maintenance", "security"]
 }
